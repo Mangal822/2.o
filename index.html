@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI SaaS Platform</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<div class="app">
+  <h1>AI Automation Assistant</h1>
+
+  <div class="chat-box" id="chatBox">
+    <div class="ai">👋 Hi! Ask me anything about your business.</div>
+  </div>
+
+  <input id="userInput" placeholder="Type your message..." />
+  <button onclick="send()">Send</button>
+
+  <div class="pricing">
+    <h2>Upgrade</h2>
+    <p>$19 / month</p>
+    <button onclick="pay()">Subscribe</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
